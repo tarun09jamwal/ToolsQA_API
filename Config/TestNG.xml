@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All ObjectOfObject.Testt Cases" verbose="1">
+    <test name="XMLTask.Serialization xml to String">
+        <classes>
+            <class name="Test.TestToolsQAList"/>
+        </classes>
+    </test>
+</suite>
