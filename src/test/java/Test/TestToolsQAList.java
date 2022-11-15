@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class TestToolsQAList extends BaseClass {
     @Test
-    public void ListElements() {
+    public void ListElements() throws IOException {
         pageFactory.getToolsQAList().AllList();
     }
 
@@ -16,7 +16,7 @@ public class TestToolsQAList extends BaseClass {
         pageFactory.getBookStore().Books();
     }
     @Test(priority = 2)
-    public void BooksData() throws IOException {
+    public void BooksData() {
         pageFactory.getBookData().API();
     }
 }

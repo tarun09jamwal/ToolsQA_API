@@ -1,8 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All ObjectOfObject.Testt Cases" verbose="1">
-    <test name="XMLTask.Serialization xml to String">
+    <test name="Get book data of ToolsQA website ">
         <classes>
             <class name="Test.TestToolsQAList"/>
         </classes>
     </test>
+    <listeners>
+        <listener class-name="Reports.Listners"/>
+    </listeners>
 </suite>
